@@ -1,0 +1,33 @@
+body{
+background-color:grey;
+}
+
+
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-gap:20px;
+align-items: center;
+}
+
+
+.product{
+font-weight:bold;
+color:black;
+}
+
+img{
+width:200px;
+height:200px;
+}
+
+price{
+color:black;
+font-weight: bold;
+}
+
+
+p{
+color:whitesmoke;
+}
